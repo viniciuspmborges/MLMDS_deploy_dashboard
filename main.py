@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 URL = "https://raw.githubusercontent.com/marcopeix/MachineLearningModelDeploymentwithStreamlit/master/12_dashboard_capstone/data/quarterly_canada_population.csv"
+PASSWORD = "12341234"
 
 df = pd.read_csv(URL, dtype={'Quarter': str, 
                             'Canada': np.int32,
